@@ -2,7 +2,7 @@ import createStripe from "stripe-client";
 import { host } from "../../utils/env";
 
 const stripe = createStripe(
-  "pk_test_51KjONVSAASeroQozeaS1S5WkP7n7avKo4MxtnPJywy12mTCh2B2I2NcvKdkzqv3yG3xMj307OjGt0jMTmMk3pCTP005swDo0ZL"
+  "enter your stripe public key"
 );
 
 export const cardTokenRequest = (card) => stripe.createToken({ card });

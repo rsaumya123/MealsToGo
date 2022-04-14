@@ -6,7 +6,7 @@ const { payRequest } = require("./pay");
 const { Client } = require("@googlemaps/google-maps-services-js");
 
 const stripeClient = require("stripe")(
-  "sk_test_51KjONVSAASeroQozSzNkletB0ImUTyLawgnUDN4gO8VipnWHkyl56KMNZthI8YHlGFDvRLtWHmUHopTTo0It7zRn009KMjKERw"
+  "private stripe key"
 );
 const googleClient = new Client({});
 // const client = new Client({});
